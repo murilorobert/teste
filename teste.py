@@ -13,3 +13,5 @@ except sr.UnknownValueError:
     print("Não consegui te entender ")
 except sr.RequestError as e:
     print("vc esta offline; {0}".format(e))
+
+    print('Olá Git')
